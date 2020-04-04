@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc62acae-4c41-4d80-b23c-62bbf897f770" name="Default Changelist" comment="" />
+    <list default="true" id="bc62acae-4c41-4d80-b23c-62bbf897f770" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,10 +29,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JavaFXApplication" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -42,6 +47,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1VyWicrQtQe6cYfxYRsd7mRkxbA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -180,7 +188,7 @@
       <workItem from="1585535764143" duration="16633000" />
       <workItem from="1585737519257" duration="319000" />
       <workItem from="1585802369767" duration="6692000" />
-      <workItem from="1585910031722" duration="2535000" />
+      <workItem from="1585910031722" duration="3044000" />
     </task>
     <servers />
   </component>
