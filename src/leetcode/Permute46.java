@@ -53,8 +53,10 @@ public class Permute46 {
                                  List<List<Integer>> output,
                                  int first) {
         // if all integers are used up
-        if (first == n)
+        if (first == n) {
             output.add(new ArrayList(nums));
+            return;
+        }
         for (int i = first; i < n; i++) {
             // place i-th integer first
             // in the current permutation
@@ -72,13 +74,33 @@ public class Permute46 {
 
         // convert nums into list since the output is a list of lists
         ArrayList<Integer> nums_lst = new ArrayList<Integer>();
-        for (int num : nums){
+        for (int num : nums) {
             nums_lst.add(num);
         }
 
         int n = nums.length;
         backtrack(n, nums_lst, output, 0);
         return output;
+    }
+
+    public List<List<Integer>> permute3(int[] nums) {
+        List<List<Integer>> result = new ArrayList<>();
+        ArrayList<Integer> list = new ArrayList<>();
+        for (int i : nums) list.add(i);
+        helper(nums.length, result, list, 0);
+        return result;
+    }
+
+    public void helper(int length, List<List<Integer>> result, ArrayList nums, int level) {
+        if (level == length) {
+            result.add(new ArrayList<>(nums));
+            return;
+        }
+        for (int i = level; i < length; i++) {
+            Collections.swap(nums, level, i);
+            helper(length, result, nums, level + 1);
+            Collections.swap(nums, level, i);
+        }
     }
 
     public static void main(String[] args) {
